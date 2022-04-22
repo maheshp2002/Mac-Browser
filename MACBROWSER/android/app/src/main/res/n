@@ -1,0 +1,22 @@
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'MAC BROWSER',
+
+      home: MyTabs(),
+
+    );
+  }
+}
+
+
+appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back, color: Colors.black),
+            onPressed: () => Navigator.of(context).pop(),
+          ),
+          title: Text("Sample"),
+          centerTitle: true,
+        ),
+
+        appBar: AppBar(title:Text("Mac Browser"), ),
